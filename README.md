@@ -3,8 +3,8 @@
 A Next.js application to display real-time and simulated view statistics from YouTube, TikTok, and Instagram accounts.
 
 ## 🔗 Submission Details
-- **Website**:
-- **Repository**:
+- **Website**: https://social-dashboard-task.vercel.app/
+- **Repository**: https://github.com/Albaihaqi354/social-dashboard-task
 
 ## 🛠 Tech Stack
 - **Framework**: Next.js (App Router)
