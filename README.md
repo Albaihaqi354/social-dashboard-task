@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Social Media Dashboard
 
-## Getting Started
+A Next.js application to display real-time and simulated view statistics from YouTube, TikTok, and Instagram accounts.
 
-First, run the development server:
+## 🔗 Submission Details
+- **Website**:
+- **Repository**:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🛠 Tech Stack
+- **Framework**: Next.js (App Router)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📝 Short Explanation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Pendekatan
+- Menggunakan **YouTube Data API v3** untuk data live channel YouTube.
+- Menggunakan **Simulated Data Logic** untuk TikTok dan Instagram karena keterbatasan izin privasi/OAuth platform tersebut. Data simulasi dibuat konsisten berdasarkan input username untuk mendemonstrasikan fungsionalitas UI.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Kendala & Solusi
+- **Kendala**: API resmi TikTok dan Instagram membutuhkan proses otentikasi user (OAuth) yang kompleks untuk penggunaan publik.
+- **Solusi**: Diimplementasikan logika simulasi data yang akurat dengan indikator status di UI agar penilai tetap dapat melihat cara data divisualisasikan dalam dashboard.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🚀 Setup Lokal
+1. `npm install`
+2. Isi `YOUTUBE_API_KEY` di file `.env.local`
+3. `npm run dev`
